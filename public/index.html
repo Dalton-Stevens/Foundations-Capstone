@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Capstone Project</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="title">
+                <span class="title-word title-word-1">Pokemon</span>
+                <span class="title-word title-word-2">Team</span>
+                <span class="title-word title-word-3">Builder</span>
+                <span class="title-word title-word-4">!</span>
+            </h1>
+        </div>
+    </header>
+    <form id="poke-tab" class="poke-tab">
+        <label for="pokemon-select">Choose Your Pokemon:</label>
+        <select name="pokemon-select" id="pokemon-select"></select>
+        <button id="team-btn">Show Team</button>
+    </form>
+    
+    <main>
+        <div id="wrapper">
+            <section id="poke-container"></section>
+            <section id="team-container">
+                <div id="team-card" class="team-card">
+                    <div id="pokemon-team" class="div-container"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: red;
+    --color-2: blue;
+    --color-3: white;
+}
+
+.title-word-2 {
+    --color-1: blue;
+    --color-2: red;
+    --color-3: blue;
+}
+
+.title-word-3 {
+    --color-1: red;
+    --color-2: white;
+    --color-3: red;
+}
+
+.title-word-4 {
+    --color-1: blue;
+    --color-2: red;
+    --color-3: white;
+}
+
+@keyframes color-animation {
+    0% {color: var(--color-1)}
+    32% {color: var(--color-1)}
+    33% {color: var(--color-2)}
+    65% {color: var(--color-2)}
+    66% {color: var(--color-3)}
+    99% {color: var(--color-3)}
+    100% {color: var(--color-1)}
+}
+
+
+.container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100px;
+    background-color: black;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+
+.poke-tab {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #EEEEEE;
+}
+
+#team-btn {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+#team-btn:hover {
+    background-color: red;
+}
+
+main {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+#wrapper {
+    display: flex;
+}
+
+section {
+    display: flex;
+}
+
+#poke-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#poke-img {
+    height: 200px;
+    width: 275px;
+    background-color: white;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#poke-card {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-image: url(/images/card.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#poke-name {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.poke-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.poke-btn:hover {
+    background-color: red;
+}
+
+#team-container{
+    height: calc(100vh - 100px);
+    width: 1000px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/trainerCard.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-card {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    column-gap: 65px;
+    row-gap: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 15vh;
+    width: 150px;
+    position: relative;
+    border: 2px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+button {
+    border-radius: 50%;
+    background-color: black;
+    color: whitesmoke;
+}
