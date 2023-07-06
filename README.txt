@@ -14,10 +14,14 @@ Features/How it works
     You can only have 6 pokemon on your team so if you try to add more than that an alert will pop up telling you to delete a pokemon from your team before you can add another
 
 Screenshots
-![picture1](https://github.com/Dalton-Stevens/Foundations-Capstone/assets/133698839/6b0658e4-2295-4416-bdfc-7313428f547e)
+![picture1]
+(https://github.com/Dalton-Stevens/Foundations-Capstone/assets/133698839/6b0658e4-2295-4416-bdfc-7313428f547e)
 
-![picture2](https://github.com/Dalton-Stevens/Foundations-Capstone/assets/133698839/b49acae2-6521-4038-a12f-789cdd13c8ae)
+![picture2]
+(https://github.com/Dalton-Stevens/Foundations-Capstone/assets/133698839/b49acae2-6521-4038-a12f-789cdd13c8ae)
 
-![picture3](https://github.com/Dalton-Stevens/Foundations-Capstone/assets/133698839/77bb653c-d641-44d0-90d3-9444979d537d)
+![picture3]
+(https://github.com/Dalton-Stevens/Foundations-Capstone/assets/133698839/77bb653c-d641-44d0-90d3-9444979d537d)
 
-![picture4](https://github.com/Dalton-Stevens/Foundations-Capstone/assets/133698839/07b1fa8a-be4c-4b86-a840-958d912f71aa)
+![picture4]
+(https://github.com/Dalton-Stevens/Foundations-Capstone/assets/133698839/07b1fa8a-be4c-4b86-a840-958d912f71aa)
